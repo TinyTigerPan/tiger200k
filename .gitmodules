@@ -1,0 +1,3 @@
+[submodule "bilibili-downloader"]
+	path = bilibili-downloader
+	url = https://github.com/tyokyo320/bilibili-downloader
