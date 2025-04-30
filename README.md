@@ -52,7 +52,7 @@ Tiger200K is a manually curated high visual quality video dataset sourced from U
 Download the meta csv from [🤗hugging face](https://huggingface.co/collections/tinytigerpan/tiger200k-680b013101d997f97f29c030) to `meta_csv`.
 
 ### Source Video Download
-We now release the script to download videos from Bilibili by bvid entries of tiger200k dataset.
+We now release the script to download videos from Bilibili by bvid entries of tiger200k dataset. Thanks to [@MuteApo](https://github.com/MuteApo).
 
 Downloaded videos will be placed in `videos/source` and named by bvid, such as `BV1134y1E7P5.mp4`.
 
