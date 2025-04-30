@@ -67,10 +67,11 @@ class BFacade:
     def download(self, bvid_list):
         os.makedirs(config.OUTPUT_PATH, exist_ok=True)
         for bvid in tqdm(bvid_list):
-            save_path = os.path.join(config.OUTPUT_PATH, bvid + ".mp4")
-            if not os.path.exists(save_path):
+            try:
                 video = self.crawler.get(bvid)
                 self.downloader.download_video(video)
+            except Exception as e:
+                print(f"[{bvid}] {e}")
 
 
 if __name__ == "__main__":
@@ -84,4 +85,4 @@ if __name__ == "__main__":
     minutes = times // 60
     times %= 60
     seconds = times
-    print(f"Time elapsed：{minutes} min {seconds} sec")
+    print(f"Time elapsed: {minutes} min {seconds} sec")
