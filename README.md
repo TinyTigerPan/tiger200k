@@ -52,9 +52,14 @@ Tiger200K is a manually curated high visual quality video dataset sourced from U
 Download the meta csv from [🤗hugging face](https://huggingface.co/collections/tinytigerpan/tiger200k-680b013101d997f97f29c030) to `meta_csv`.
 
 ### Source Video Download
-You can refer [bilibili-downloader](https://github.com/tyokyo320/bilibili-downloader.git) to download the video from bilibili by using the bvid in tiger200k dataset.
+We now release the script to download videos from Bilibili by bvid entries of tiger200k dataset.
 
-Put the video on `videos/source` and named it using bvid, such as `BV1134y1E7P5.mp4`.
+Downloaded videos will be placed in `videos/source` and named by bvid, such as `BV1134y1E7P5.mp4`.
+
+HD/FHD streaming (720P and above) ​​requires **COOKIE** authentication​​ on Bilibili, while 4K resolution ​​mandates an active **premium subscription​​**.
+
+Please refer to [bilibili-downloader](https://github.com/tyokyo320/bilibili-downloader/blob/master/docs/set-cookie.png) for instructions.
+
 
 ### Cut the video
 Run `python cut_videos.py --meta-path meta_csv/tiger200k_batchxxx.csv` to cut source video to clips.
