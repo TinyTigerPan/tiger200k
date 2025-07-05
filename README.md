@@ -21,7 +21,7 @@ Tiger200K is a manually curated high visual quality video dataset sourced from U
 
 
 ## 🔥 News
-* TODO: 🚀 We will expand this dataset continuously and release it at irregular intervals.
+* Jul 7, 2025: 🚀 We expand tiger dataset to ~500k, and update better caption with Tarsier. [🤗](https://huggingface.co/datasets/tinytigerpan/tigerdataset)
 * Apr 26, 2025: ✅ We release the tiger200k dataset and the scripts for data preparation.
 * Apr 21, 2025: 👀 We release the paper and preview dataset.
 
