@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="https://arxiv.org/abs/2504.15182"><img src="https://img.shields.io/static/v1?label=Tech%20Report&message=Arxiv&color=red"></a> &ensp;
-  <a href="https://huggingface.co/collections/tinytigerpan/tiger200k-680b013101d997f97f29c030"><img src="https://img.shields.io/static/v1?label=Dataset&message=HuggingFace&color=yellow"></a> &ensp;
+  <a href="https://huggingface.co/datasets/tinytigerpan/tigerdataset"><img src="https://img.shields.io/static/v1?label=Dataset&message=HuggingFace&color=yellow"></a> &ensp;
   <a href="https://tinytigerpan.github.io/tiger200k"><img src="https://img.shields.io/static/v1?label=Tiger200K&message=Project%20Page&color=green"></a> &ensp;
 </div>
 
